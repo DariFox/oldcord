@@ -49,7 +49,7 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 ## [BetterDiscord](https://betterdiscord.app/)
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/DariFox/oldcord/main/OldCord.theme.css) (right-click > "Save As")
 2. Save the file to the BetterDiscord theme folder:
 
 - Windows: `%appdata%/BetterDiscord/themes`
@@ -59,7 +59,7 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 #### Local method
 
-1. Download [OldCord.theme.css](https://raw.githubusercontent.com/milbits/oldcord/main/OldCord.theme.css) (right-click > "Save As")
+1. Download [OldCord.theme.css](https://raw.githubusercontent.com/DariFox/oldcord/main/OldCord.theme.css) (right-click > "Save As")
 2. Move the file to the Vencord theme folder:
 
 - `Settings > Themes > Open theme folder`
@@ -68,14 +68,14 @@ If you use custom/quickcss, paste the CSS at the very top!
 
 Paste the following in `Settings > Themes`:
 
-- `https://milbits.github.io/oldcord/src/main.css`
+- `https://DariFox.github.io/oldcord/src/main.css`
 
 ## Other
 
 1. Paste the following at **the top** of the CSS file/window:
 
 ```css
-@import url("https://milbits.github.io/oldcord/src/main.css");
+@import url("https://DariFox.github.io/oldcord/src/main.css");
 ```
 ----
 
