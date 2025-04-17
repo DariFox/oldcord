@@ -520,19 +520,6 @@ code {
     background-color: #303339 !important;
 }
 
-.accountProfilePopoutWrapper__37e49 {
-    left: 0;
-}
-
-.accountProfilePopoutWrapper__37e49 .biteSize_c0bea0.overlay_c0bea0 {
-    margin: 0;
-    border-radius: 4px;
-}
-
-.accountProfilePopoutWrapper__37e49 > div, .accountProfilePopoutWrapper__37e49 .menu-KSaHL1 .submenu-1apzyU {
-    border-radius: 4px;
-}
-
 /* revert text files*/
 .nonVisualMediaItem_f4758a .mosaicItemMediaMosaic__6c706 {
     max-width: 100% !important;
@@ -1532,80 +1519,6 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     display: none;
 }
 
-/** Game profile */
-.gameProfileModal__8e830 [data-text-variant="heading-md\/bold"] {
-    visibility: hidden;
-}
-
-.gameProfileModal__8e830 .heading-xl\/bold_cf4812 {
-    font-weight: 600;
-    font-size: 20px;
-    margin-left: 55px;
-}
-
-.gameProfileModal__8e830 .sectionHeader__8e830:is(.text-xs\/semibold_cf4812, .text-md\/semibold_cf4812, .text-sm\/semibold_cf4812) {
-    text-transform: uppercase !important;
-}
-
-.gameProfileModal__8e830 .text-md\/semibold_cf4812 {
-    color: var(--header-secondary) !important;
-    font-size: 13px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    &:after {
-        content: "";
-        background: var(--background-modifier-accent);
-        flex: 1;
-        height: 1px;
-        display: block;
-    }
-}
-
-.gameProfileModal__8e830 .gapSm__8e830.row__8e830 > .text-sm\/semibold_cf4812 {
-    color: var(--header-secondary) !important;
-    font-weight: 500;
-    margin-left: 55px;
-}
-
-.gameProfileModal__8e830 .lineClamp2Plus__4bd52 {
-    max-height: unset;
-}
-
-.gameProfileModal__8e830 .overflowMenu__8e830 {
-    background: none;
-    backdrop-filter: none;
-}
-
-.gameProfileModal__8e830 .sidebar__8e830 {
-    border-left: solid 1px var(--background-modifier-accent);
-}
-
-.gameProfileModal__8e830 .logoWrapper__8e830 {
-    background-color: unset;
-    border-radius: 4px;
-}
-
-.gameProfileModal__8e830 .friends_b37a75.text-xs\/semibold_cf4812 {
-    background: none;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-/* move game icon */
-.gameProfileModal__8e830 .gameIcon__8e830 {
-    position: absolute;
-    margin-top: -32px;
-    width: 48px;
-    height: 48px;
-}
-
-.gameProfileModal__8e830 .platforms__93ebb {
-    transform: scale(1.5);
-    margin-left: 45px;
-}
-
 /*change x to twitter (bluesky better)*/
 .gameProfileModal__8e830 .anchor_edefb8 path[d="M13.86 10.47 21.15 2h-1.73l-6.33 7.35L8.04 2H2.22l7.64 11.12L2.22 22h1.72l6.68-7.77L15.96 22h5.82l-7.92-11.53Zm-2.36 2.75-.78-1.11L4.57 3.3h2.65l4.97 7.11.77 1.1 6.46 9.25h-2.65l-5.27-7.54Z"] {
     d: path( "M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z" );
@@ -1680,34 +1593,11 @@ h2.title_b717a1, .modalHeader_db81c6 :is([data-text-variant="heading-lg/semibold
     margin-left: 28%
 }
 
-.profilePreview_dbc4b7 {
-    display: none;
-}
 
 .statusText__19b6d {
     color: var(--header-secondary);
 }
 
-/* "My Account" settings panel */
-.accountProfileCard__1fed1 {
-    .userInfo__1fed1 > div:nth-of-type(1) {
-        width: 92px !important;
-        height: 92px !important;
-        svg {
-            width: 100px;
-            height: 100px;
-        }
-    }
-    .userInfo__1fed1 > div:nth-of-type(2) {
-        display: none;
-    }
-    .background__1fed1, .fieldList__1fed1 {
-        background: var(--background-secondary);
-    }
-    .fieldList__1fed1 {
-        margin-left: 100px;
-        margin-top: -50px;
-    }
 }
 /* new experimental image viewer - this sucks, don't use it
 
